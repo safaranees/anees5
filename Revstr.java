@@ -5,7 +5,7 @@ public class Revstr
 {
         public static void main(String args[])
         {
-                StringBuffer  revnum=StringBuffer("aabbcc");
-                System.out.println(a.reverse());
+                StringBuffer  revnum = new StringBuffer("aabbcc");
+                System.out.println(revnum.reverse());
         }
 }
